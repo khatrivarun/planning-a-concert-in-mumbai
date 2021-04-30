@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_7b8a79f0827d41ae8a226124c8c4198f {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7b8a79f0827d41ae8a226124c8c4198f" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_7b8a79f0827d41ae8a226124c8c4198f = L.map(
+                                  'map_7b8a79f0827d41ae8a226124c8c4198f',
+                                  {center: [19.0759899,72.8773928],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_57dec0e719f149a1b6a295c580239311 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+        
+    
+            var circle_marker_f7f83e85c4d14495a3b87e1c445bec1d = L.circleMarker(
+                [19.18839,72.96353],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_4d10edf473f145368291dc9456a022da = L.popup({maxWidth: '300'});
+
+            
+                var html_083adc25095a4ee496d5085b90de253b = $('<div id="html_083adc25095a4ee496d5085b90de253b" style="width: 100.0%; height: 100.0%;">Thomas Cook</div>')[0];
+                popup_4d10edf473f145368291dc9456a022da.setContent(html_083adc25095a4ee496d5085b90de253b);
+            
+
+            circle_marker_f7f83e85c4d14495a3b87e1c445bec1d.bindPopup(popup_4d10edf473f145368291dc9456a022da);
+
+            
+        
+    
+            var circle_marker_3da9a45a7a964c4f8c366fc9e742abc7 = L.circleMarker(
+                [19.11573028564453,72.8571548461914],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_3763e80ba3ba497ba7fc48654465762d = L.popup({maxWidth: '300'});
+
+            
+                var html_7cfe7399a70646c7be19e53f698d73f5 = $('<div id="html_7cfe7399a70646c7be19e53f698d73f5" style="width: 100.0%; height: 100.0%;">Ali Travels</div>')[0];
+                popup_3763e80ba3ba497ba7fc48654465762d.setContent(html_7cfe7399a70646c7be19e53f698d73f5);
+            
+
+            circle_marker_3da9a45a7a964c4f8c366fc9e742abc7.bindPopup(popup_3763e80ba3ba497ba7fc48654465762d);
+
+            
+        
+    
+            var circle_marker_9caaa71083cf455f82352d6323d1bb5e = L.circleMarker(
+                [19.220597875049634,72.85440090768981],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_211b93fd878c4ad68823076dc9defab1 = L.popup({maxWidth: '300'});
+
+            
+                var html_de794b7d70e74d50a32028ced3c1f60a = $('<div id="html_de794b7d70e74d50a32028ced3c1f60a" style="width: 100.0%; height: 100.0%;">Travel Smith</div>')[0];
+                popup_211b93fd878c4ad68823076dc9defab1.setContent(html_de794b7d70e74d50a32028ced3c1f60a);
+            
+
+            circle_marker_9caaa71083cf455f82352d6323d1bb5e.bindPopup(popup_211b93fd878c4ad68823076dc9defab1);
+
+            
+        
+    
+            var circle_marker_5f9993f4a120414a8e5b4fc1facb562f = L.circleMarker(
+                [19.102495,72.85323],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_9c01e24a4315465daf4bfa4bb2ac51df = L.popup({maxWidth: '300'});
+
+            
+                var html_4b19f78f7bea42778754e8065484d472 = $('<div id="html_4b19f78f7bea42778754e8065484d472" style="width: 100.0%; height: 100.0%;">Karmik Travels</div>')[0];
+                popup_9c01e24a4315465daf4bfa4bb2ac51df.setContent(html_4b19f78f7bea42778754e8065484d472);
+            
+
+            circle_marker_5f9993f4a120414a8e5b4fc1facb562f.bindPopup(popup_9c01e24a4315465daf4bfa4bb2ac51df);
+
+            
+        
+    
+            var circle_marker_134157783d71412ea4ef0c8c505afca4 = L.circleMarker(
+                [18.950926,72.835434],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_deb459dcd9aa4b6badd26afc5452a33a = L.popup({maxWidth: '300'});
+
+            
+                var html_7297846cdccb462d921fde9c0e47c757 = $('<div id="html_7297846cdccb462d921fde9c0e47c757" style="width: 100.0%; height: 100.0%;">Saif Travels and Tours</div>')[0];
+                popup_deb459dcd9aa4b6badd26afc5452a33a.setContent(html_7297846cdccb462d921fde9c0e47c757);
+            
+
+            circle_marker_134157783d71412ea4ef0c8c505afca4.bindPopup(popup_deb459dcd9aa4b6badd26afc5452a33a);
+
+            
+        
+    
+            var circle_marker_41839625dec645998e745e8a24f87aef = L.circleMarker(
+                [19.081533326082763,72.89442003894543],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_cc8228921677497986718d1f2588a1f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_fcd97ad1c56847daaed251a78f998c9c = $('<div id="html_fcd97ad1c56847daaed251a78f998c9c" style="width: 100.0%; height: 100.0%;">Veena World Corporate Office - NCP</div>')[0];
+                popup_cc8228921677497986718d1f2588a1f6.setContent(html_fcd97ad1c56847daaed251a78f998c9c);
+            
+
+            circle_marker_41839625dec645998e745e8a24f87aef.bindPopup(popup_cc8228921677497986718d1f2588a1f6);
+
+            
+        
+    
+            var circle_marker_fcead9ba0fea4fd5b469d8e176a467a2 = L.circleMarker(
+                [19.067225729460574,72.83962498287805],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_808e30b7107d4ddc8799d32d57dfe8af = L.popup({maxWidth: '300'});
+
+            
+                var html_e55057d59066465fb1788153554aa722 = $('<div id="html_e55057d59066465fb1788153554aa722" style="width: 100.0%; height: 100.0%;">Jyoti travels</div>')[0];
+                popup_808e30b7107d4ddc8799d32d57dfe8af.setContent(html_e55057d59066465fb1788153554aa722);
+            
+
+            circle_marker_fcead9ba0fea4fd5b469d8e176a467a2.bindPopup(popup_808e30b7107d4ddc8799d32d57dfe8af);
+
+            
+        
+    
+            var circle_marker_4a08cbaf9ecb44438a787daec4445aeb = L.circleMarker(
+                [19.113509,72.880042],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_e8df0fff438040fcbe6351f73cfff26d = L.popup({maxWidth: '300'});
+
+            
+                var html_1f25962b9fb44a1eb71ec90637876711 = $('<div id="html_1f25962b9fb44a1eb71ec90637876711" style="width: 100.0%; height: 100.0%;">FCM Travel Solutions</div>')[0];
+                popup_e8df0fff438040fcbe6351f73cfff26d.setContent(html_1f25962b9fb44a1eb71ec90637876711);
+            
+
+            circle_marker_4a08cbaf9ecb44438a787daec4445aeb.bindPopup(popup_e8df0fff438040fcbe6351f73cfff26d);
+
+            
+        
+    
+            var circle_marker_c35d5137e3e1426b9e3d319291b0829d = L.circleMarker(
+                [19.107450485229492,72.8402328491211],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_5b8ec524eea243089ad890502fd030df = L.popup({maxWidth: '300'});
+
+            
+                var html_9145f422ec064de9a0c268747c29c402 = $('<div id="html_9145f422ec064de9a0c268747c29c402" style="width: 100.0%; height: 100.0%;">Bonton Tours</div>')[0];
+                popup_5b8ec524eea243089ad890502fd030df.setContent(html_9145f422ec064de9a0c268747c29c402);
+            
+
+            circle_marker_c35d5137e3e1426b9e3d319291b0829d.bindPopup(popup_5b8ec524eea243089ad890502fd030df);
+
+            
+        
+    
+            var circle_marker_90e0869d0281490b8df690bb20afc1aa = L.circleMarker(
+                [18.957214119609848,72.81872022051795],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_76b048ad06f64adbba61c5e076b27494 = L.popup({maxWidth: '300'});
+
+            
+                var html_50322328c42e427ebfab083163a76f63 = $('<div id="html_50322328c42e427ebfab083163a76f63" style="width: 100.0%; height: 100.0%;">travelbyindia.com</div>')[0];
+                popup_76b048ad06f64adbba61c5e076b27494.setContent(html_50322328c42e427ebfab083163a76f63);
+            
+
+            circle_marker_90e0869d0281490b8df690bb20afc1aa.bindPopup(popup_76b048ad06f64adbba61c5e076b27494);
+
+            
+        
+    
+            var circle_marker_82fcfe2d91f84d2d9644a32740b899f4 = L.circleMarker(
+                [19.0552346,72.8358738],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_544b8291ffcf407ebe99273078734125 = L.popup({maxWidth: '300'});
+
+            
+                var html_83de4f9b6db84edda157d54165e4c228 = $('<div id="html_83de4f9b6db84edda157d54165e4c228" style="width: 100.0%; height: 100.0%;">BEST travels</div>')[0];
+                popup_544b8291ffcf407ebe99273078734125.setContent(html_83de4f9b6db84edda157d54165e4c228);
+            
+
+            circle_marker_82fcfe2d91f84d2d9644a32740b899f4.bindPopup(popup_544b8291ffcf407ebe99273078734125);
+
+            
+        
+    
+            var circle_marker_1f09043025ef45c79b780a0e09b9381f = L.circleMarker(
+                [19.230301,72.856464],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_ee6f6c202c8f4180bb94669868a5f40c = L.popup({maxWidth: '300'});
+
+            
+                var html_28c48bb97235438b9cf042a155008512 = $('<div id="html_28c48bb97235438b9cf042a155008512" style="width: 100.0%; height: 100.0%;">millenia tours and travels</div>')[0];
+                popup_ee6f6c202c8f4180bb94669868a5f40c.setContent(html_28c48bb97235438b9cf042a155008512);
+            
+
+            circle_marker_1f09043025ef45c79b780a0e09b9381f.bindPopup(popup_ee6f6c202c8f4180bb94669868a5f40c);
+
+            
+        
+    
+            var circle_marker_1c27b699e9fc43528e23266bd3cd6443 = L.circleMarker(
+                [19.100963592529297,72.91828155517578],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_56f7620c22f041259b22d49b68d94efe = L.popup({maxWidth: '300'});
+
+            
+                var html_ec33589369b0498c9a856e32e9c65c24 = $('<div id="html_ec33589369b0498c9a856e32e9c65c24" style="width: 100.0%; height: 100.0%;">Flight Shop</div>')[0];
+                popup_56f7620c22f041259b22d49b68d94efe.setContent(html_ec33589369b0498c9a856e32e9c65c24);
+            
+
+            circle_marker_1c27b699e9fc43528e23266bd3cd6443.bindPopup(popup_56f7620c22f041259b22d49b68d94efe);
+
+            
+        
+    
+            var circle_marker_242abba9a3ff4ed59e84ef650234d44a = L.circleMarker(
+                [18.937053,72.827427],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_6f119de53e7449f895b73802203329a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_ae94df92943445c896f595fc0ad65f4e = $('<div id="html_ae94df92943445c896f595fc0ad65f4e" style="width: 100.0%; height: 100.0%;">Global Aviation Service</div>')[0];
+                popup_6f119de53e7449f895b73802203329a4.setContent(html_ae94df92943445c896f595fc0ad65f4e);
+            
+
+            circle_marker_242abba9a3ff4ed59e84ef650234d44a.bindPopup(popup_6f119de53e7449f895b73802203329a4);
+
+            
+        
+    
+            var circle_marker_c326a0d3945641f89e04ca12b0679fed = L.circleMarker(
+                [19.104369759384813,72.85382973479219],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_76c6ce66e12f475b94d73f2e9df1d60e = L.popup({maxWidth: '300'});
+
+            
+                var html_e5d7dcff48944fb4ad69cd98f1df41d0 = $('<div id="html_e5d7dcff48944fb4ad69cd98f1df41d0" style="width: 100.0%; height: 100.0%;">Anjali Travels And Tours</div>')[0];
+                popup_76c6ce66e12f475b94d73f2e9df1d60e.setContent(html_e5d7dcff48944fb4ad69cd98f1df41d0);
+            
+
+            circle_marker_c326a0d3945641f89e04ca12b0679fed.bindPopup(popup_76c6ce66e12f475b94d73f2e9df1d60e);
+
+            
+        
+    
+            var circle_marker_075468ec01814717a6654c43de2f485f = L.circleMarker(
+                [19.085345947153105,73.00968638272576],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_81c31050513748d283ad849ae5a97c62 = L.popup({maxWidth: '300'});
+
+            
+                var html_4addaf38c14d484e9574db879a5fefb2 = $('<div id="html_4addaf38c14d484e9574db879a5fefb2" style="width: 100.0%; height: 100.0%;">Rto Office</div>')[0];
+                popup_81c31050513748d283ad849ae5a97c62.setContent(html_4addaf38c14d484e9574db879a5fefb2);
+            
+
+            circle_marker_075468ec01814717a6654c43de2f485f.bindPopup(popup_81c31050513748d283ad849ae5a97c62);
+
+            
+        
+    
+            var circle_marker_cf8cbbdbd3cc419fbf195876a3b2ac8e = L.circleMarker(
+                [18.93986438938499,72.83842486835238],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7b8a79f0827d41ae8a226124c8c4198f);
+            
+    
+            var popup_38355142b9254fffbc17bc8b91052173 = L.popup({maxWidth: '300'});
+
+            
+                var html_f0333a9e0bec4a089f9ae069ffc0d9fd = $('<div id="html_f0333a9e0bec4a089f9ae069ffc0d9fd" style="width: 100.0%; height: 100.0%;">Riya Holidays</div>')[0];
+                popup_38355142b9254fffbc17bc8b91052173.setContent(html_f0333a9e0bec4a089f9ae069ffc0d9fd);
+            
+
+            circle_marker_cf8cbbdbd3cc419fbf195876a3b2ac8e.bindPopup(popup_38355142b9254fffbc17bc8b91052173);
+
+            
+        
+</script>

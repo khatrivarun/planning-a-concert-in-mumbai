@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_45868f3b524e47f6a8a361e7043963c7 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_45868f3b524e47f6a8a361e7043963c7" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_45868f3b524e47f6a8a361e7043963c7 = L.map(
+                                  'map_45868f3b524e47f6a8a361e7043963c7',
+                                  {center: [19.0759899,72.8773928],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_95d0aff190aa420690987afffc85cfcd = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+        
+    
+            var circle_marker_60e5440afe7b47bda1a7a331a7ef6499 = L.circleMarker(
+                [19.06680832992521,72.86746828365813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_6016a77607494bf2bed165fb1961b61d = L.popup({maxWidth: '300'});
+
+            
+                var html_ccc9e0eb57bf44b5b10bda0ce75153bb = $('<div id="html_ccc9e0eb57bf44b5b10bda0ce75153bb" style="width: 100.0%; height: 100.0%;">Trident</div>')[0];
+                popup_6016a77607494bf2bed165fb1961b61d.setContent(html_ccc9e0eb57bf44b5b10bda0ce75153bb);
+            
+
+            circle_marker_60e5440afe7b47bda1a7a331a7ef6499.bindPopup(popup_6016a77607494bf2bed165fb1961b61d);
+
+            
+        
+    
+            var circle_marker_406e5bea44ab4d2390d3fbdec3c1dd84 = L.circleMarker(
+                [19.1020372,72.8261813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_38e489bd2fd84852a84d542b3bf030ac = L.popup({maxWidth: '300'});
+
+            
+                var html_ab8df376d3534751881067a6cffeb2b0 = $('<div id="html_ab8df376d3534751881067a6cffeb2b0" style="width: 100.0%; height: 100.0%;">JW Marriott Mumbai Juhu</div>')[0];
+                popup_38e489bd2fd84852a84d542b3bf030ac.setContent(html_ab8df376d3534751881067a6cffeb2b0);
+            
+
+            circle_marker_406e5bea44ab4d2390d3fbdec3c1dd84.bindPopup(popup_38e489bd2fd84852a84d542b3bf030ac);
+
+            
+        
+    
+            var circle_marker_10d5b0bc851a4cafb249c974148a8745 = L.circleMarker(
+                [18.998468844862458,72.83843278884888],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_00733cafc5a549bfabdf557310e1eb0d = L.popup({maxWidth: '300'});
+
+            
+                var html_2bdeb78649104fa69f2400f8cb8b7a44 = $('<div id="html_2bdeb78649104fa69f2400f8cb8b7a44" style="width: 100.0%; height: 100.0%;">ITC Grand Central</div>')[0];
+                popup_00733cafc5a549bfabdf557310e1eb0d.setContent(html_2bdeb78649104fa69f2400f8cb8b7a44);
+            
+
+            circle_marker_10d5b0bc851a4cafb249c974148a8745.bindPopup(popup_00733cafc5a549bfabdf557310e1eb0d);
+
+            
+        
+    
+            var circle_marker_dc52edda42d941f6992445cb9353868d = L.circleMarker(
+                [19.043677132890416,72.81926228959885],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_10a441ebf21b44aaa6027dc655066c36 = L.popup({maxWidth: '300'});
+
+            
+                var html_eadd533ed7da406daed906f50777ffa0 = $('<div id="html_eadd533ed7da406daed906f50777ffa0" style="width: 100.0%; height: 100.0%;">Taj Lands End</div>')[0];
+                popup_10a441ebf21b44aaa6027dc655066c36.setContent(html_eadd533ed7da406daed906f50777ffa0);
+            
+
+            circle_marker_dc52edda42d941f6992445cb9353868d.bindPopup(popup_10a441ebf21b44aaa6027dc655066c36);
+
+            
+        
+    
+            var circle_marker_307e4eba3f814cd7820e8e6120a3c428 = L.circleMarker(
+                [19.11022220381635,72.87862210283278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_09b9dd6369ab428882d4404845e9bf34 = L.popup({maxWidth: '300'});
+
+            
+                var html_de6f6a1d69924679b1504cd7af94c88b = $('<div id="html_de6f6a1d69924679b1504cd7af94c88b" style="width: 100.0%; height: 100.0%;">Radisson Blu Mumbai International Airport</div>')[0];
+                popup_09b9dd6369ab428882d4404845e9bf34.setContent(html_de6f6a1d69924679b1504cd7af94c88b);
+            
+
+            circle_marker_307e4eba3f814cd7820e8e6120a3c428.bindPopup(popup_09b9dd6369ab428882d4404845e9bf34);
+
+            
+        
+    
+            var circle_marker_0fbcc1cd63784b04a4b6088ab40c3b52 = L.circleMarker(
+                [19.1141672,72.8641313],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_f775aabe050a44b3b6f13129ab8d1e67 = L.popup({maxWidth: '300'});
+
+            
+                var html_7d9da47794fe4b9eb770f4805c8b7e15 = $('<div id="html_7d9da47794fe4b9eb770f4805c8b7e15" style="width: 100.0%; height: 100.0%;">Courtyard Mumbai International Airport</div>')[0];
+                popup_f775aabe050a44b3b6f13129ab8d1e67.setContent(html_7d9da47794fe4b9eb770f4805c8b7e15);
+            
+
+            circle_marker_0fbcc1cd63784b04a4b6088ab40c3b52.bindPopup(popup_f775aabe050a44b3b6f13129ab8d1e67);
+
+            
+        
+    
+            var circle_marker_a9e9c9231d41411484eb385a8c8c9db1 = L.circleMarker(
+                [19.104275947619968,72.87089179498523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_7ffa30b1db3a49c981814371d184edef = L.popup({maxWidth: '300'});
+
+            
+                var html_fb9cdcc934da45b394c56d45f9e4982b = $('<div id="html_fb9cdcc934da45b394c56d45f9e4982b" style="width: 100.0%; height: 100.0%;">Hilton</div>')[0];
+                popup_7ffa30b1db3a49c981814371d184edef.setContent(html_fb9cdcc934da45b394c56d45f9e4982b);
+            
+
+            circle_marker_a9e9c9231d41411484eb385a8c8c9db1.bindPopup(popup_7ffa30b1db3a49c981814371d184edef);
+
+            
+        
+    
+            var circle_marker_c6cf6cd16983494091a74e960383944e = L.circleMarker(
+                [18.99457,72.824404],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_31f6bdc393a142d59f3fd75f475f9a15 = L.popup({maxWidth: '300'});
+
+            
+                var html_c903c9003d18454491f20907b344f064 = $('<div id="html_c903c9003d18454491f20907b344f064" style="width: 100.0%; height: 100.0%;">The St. Regis Mumbai</div>')[0];
+                popup_31f6bdc393a142d59f3fd75f475f9a15.setContent(html_c903c9003d18454491f20907b344f064);
+            
+
+            circle_marker_c6cf6cd16983494091a74e960383944e.bindPopup(popup_31f6bdc393a142d59f3fd75f475f9a15);
+
+            
+        
+    
+            var circle_marker_815fce393cec4dc988821a2ea8320a13 = L.circleMarker(
+                [19.10402335643933,72.86963760852814],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_da41703e69974b9ea19b4fa3c7edbb6a = L.popup({maxWidth: '300'});
+
+            
+                var html_092938b6a83646e2bed7f1fb4295550b = $('<div id="html_092938b6a83646e2bed7f1fb4295550b" style="width: 100.0%; height: 100.0%;">ITC Maratha</div>')[0];
+                popup_da41703e69974b9ea19b4fa3c7edbb6a.setContent(html_092938b6a83646e2bed7f1fb4295550b);
+            
+
+            circle_marker_815fce393cec4dc988821a2ea8320a13.bindPopup(popup_da41703e69974b9ea19b4fa3c7edbb6a);
+
+            
+        
+    
+            var circle_marker_e8e1c4a1632743fe83978166436075c6 = L.circleMarker(
+                [18.91441306149257,72.82102773714136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_5ac8f46a71664b318dd002b85fda74cb = L.popup({maxWidth: '300'});
+
+            
+                var html_28490fceb706434ea4ce6d56b0f91a41 = $('<div id="html_28490fceb706434ea4ce6d56b0f91a41" style="width: 100.0%; height: 100.0%;">Vivanta by Taj - President</div>')[0];
+                popup_5ac8f46a71664b318dd002b85fda74cb.setContent(html_28490fceb706434ea4ce6d56b0f91a41);
+            
+
+            circle_marker_e8e1c4a1632743fe83978166436075c6.bindPopup(popup_5ac8f46a71664b318dd002b85fda74cb);
+
+            
+        
+    
+            var circle_marker_ab461d36c6b347f096d20ca6b85aa01b = L.circleMarker(
+                [19.076832,72.85127],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_24061e955a07401f9960d7f02566d8ab = L.popup({maxWidth: '300'});
+
+            
+                var html_cdf14ab1a0854cc39668088a47ed0622 = $('<div id="html_cdf14ab1a0854cc39668088a47ed0622" style="width: 100.0%; height: 100.0%;">Grand Hyatt</div>')[0];
+                popup_24061e955a07401f9960d7f02566d8ab.setContent(html_cdf14ab1a0854cc39668088a47ed0622);
+            
+
+            circle_marker_ab461d36c6b347f096d20ca6b85aa01b.bindPopup(popup_24061e955a07401f9960d7f02566d8ab);
+
+            
+        
+    
+            var circle_marker_c99747b450d74765afdb0ea33f7fb1c2 = L.circleMarker(
+                [19.09313359786729,72.82745481573147],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_1a01e5a57cef49238daeb15937cffc0e = L.popup({maxWidth: '300'});
+
+            
+                var html_de25580e825449cbbd99c575018b9059 = $('<div id="html_de25580e825449cbbd99c575018b9059" style="width: 100.0%; height: 100.0%;">Hotel Sea Princess</div>')[0];
+                popup_1a01e5a57cef49238daeb15937cffc0e.setContent(html_de25580e825449cbbd99c575018b9059);
+            
+
+            circle_marker_c99747b450d74765afdb0ea33f7fb1c2.bindPopup(popup_1a01e5a57cef49238daeb15937cffc0e);
+
+            
+        
+    
+            var circle_marker_2016e7b08d594d11899a5f6c4859344d = L.circleMarker(
+                [19.066799422202674,72.83024281114886],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_49fd256e3a794382830664ce7e227efe = L.popup({maxWidth: '300'});
+
+            
+                var html_26ed846cab36417d815c6f7e4b802762 = $('<div id="html_26ed846cab36417d815c6f7e4b802762" style="width: 100.0%; height: 100.0%;">Executive Enclave Hotel</div>')[0];
+                popup_49fd256e3a794382830664ce7e227efe.setContent(html_26ed846cab36417d815c6f7e4b802762);
+            
+
+            circle_marker_2016e7b08d594d11899a5f6c4859344d.bindPopup(popup_49fd256e3a794382830664ce7e227efe);
+
+            
+        
+    
+            var circle_marker_d570f0cb23114795a15547febcc9279f = L.circleMarker(
+                [19.284879417374295,72.90427468616842],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_d548625cc5e5463aac6cba69e18704b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_e3b5c37e7e16457691b212621b3d9910 = $('<div id="html_e3b5c37e7e16457691b212621b3d9910" style="width: 100.0%; height: 100.0%;">Hotel Fountain</div>')[0];
+                popup_d548625cc5e5463aac6cba69e18704b8.setContent(html_e3b5c37e7e16457691b212621b3d9910);
+            
+
+            circle_marker_d570f0cb23114795a15547febcc9279f.bindPopup(popup_d548625cc5e5463aac6cba69e18704b8);
+
+            
+        
+    
+            var circle_marker_426c12fe8228442f84c5aef53c37ba1a = L.circleMarker(
+                [19.186152335328153,72.95962316545427],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_df79fb7af267432cb1b0299605f6cef6 = L.popup({maxWidth: '300'});
+
+            
+                var html_5f5d972582f14ba48ca2c954696720fd = $('<div id="html_5f5d972582f14ba48ca2c954696720fd" style="width: 100.0%; height: 100.0%;">Hotel Tip Top Plaza</div>')[0];
+                popup_df79fb7af267432cb1b0299605f6cef6.setContent(html_5f5d972582f14ba48ca2c954696720fd);
+            
+
+            circle_marker_426c12fe8228442f84c5aef53c37ba1a.bindPopup(popup_df79fb7af267432cb1b0299605f6cef6);
+
+            
+        
+    
+            var circle_marker_97a130487c18421a8cc0b7817975f78b = L.circleMarker(
+                [18.92787752948028,72.82071104273936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_e90e356b4739471ba7e449b98aa2ad02 = L.popup({maxWidth: '300'});
+
+            
+                var html_4b393401ba304b57a5ace041a1343a62 = $('<div id="html_4b393401ba304b57a5ace041a1343a62" style="width: 100.0%; height: 100.0%;">Trident</div>')[0];
+                popup_e90e356b4739471ba7e449b98aa2ad02.setContent(html_4b393401ba304b57a5ace041a1343a62);
+            
+
+            circle_marker_97a130487c18421a8cc0b7817975f78b.bindPopup(popup_e90e356b4739471ba7e449b98aa2ad02);
+
+            
+        
+    
+            var circle_marker_c564681e6eb345fa86ddc42d0125681d = L.circleMarker(
+                [19.103543148622148,72.8714396060434],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_e17bc3796eb04eac84239b139a37f11f = L.popup({maxWidth: '300'});
+
+            
+                var html_bee3116358a34b178578e78ed33894bd = $('<div id="html_bee3116358a34b178578e78ed33894bd" style="width: 100.0%; height: 100.0%;">Hyatt Regency</div>')[0];
+                popup_e17bc3796eb04eac84239b139a37f11f.setContent(html_bee3116358a34b178578e78ed33894bd);
+            
+
+            circle_marker_c564681e6eb345fa86ddc42d0125681d.bindPopup(popup_e17bc3796eb04eac84239b139a37f11f);
+
+            
+        
+    
+            var circle_marker_571e8b0cc5e34db7bec598e68ffbb78d = L.circleMarker(
+                [19.06706019411115,72.9991508247606],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_512de049c78d4b3d94f500c1c1e9faef = L.popup({maxWidth: '300'});
+
+            
+                var html_7f22b9ef32f245b18786082c6c094953 = $('<div id="html_7f22b9ef32f245b18786082c6c094953" style="width: 100.0%; height: 100.0%;">Regenza Hotel Tunga</div>')[0];
+                popup_512de049c78d4b3d94f500c1c1e9faef.setContent(html_7f22b9ef32f245b18786082c6c094953);
+            
+
+            circle_marker_571e8b0cc5e34db7bec598e68ffbb78d.bindPopup(popup_512de049c78d4b3d94f500c1c1e9faef);
+
+            
+        
+    
+            var circle_marker_c9e8c2aba7244972803f245ff1b3c152 = L.circleMarker(
+                [19.10614013007769,72.86021774649141],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_487441f85b2a40b9a4ee18b5576c499d = L.popup({maxWidth: '300'});
+
+            
+                var html_eee2ccbbc5454beda303acfb2be4193d = $('<div id="html_eee2ccbbc5454beda303acfb2be4193d" style="width: 100.0%; height: 100.0%;">Hotel Suba International</div>')[0];
+                popup_487441f85b2a40b9a4ee18b5576c499d.setContent(html_eee2ccbbc5454beda303acfb2be4193d);
+            
+
+            circle_marker_c9e8c2aba7244972803f245ff1b3c152.bindPopup(popup_487441f85b2a40b9a4ee18b5576c499d);
+
+            
+        
+    
+            var circle_marker_635cc33a1e234637b3d6b8a3f373c709 = L.circleMarker(
+                [19.108866166428427,72.87733733862314],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_7b25eaa0806d443cb35cddb27fc57360 = L.popup({maxWidth: '300'});
+
+            
+                var html_472efebade9342f5aaedc025126f67e3 = $('<div id="html_472efebade9342f5aaedc025126f67e3" style="width: 100.0%; height: 100.0%;">Mirage Hotel Mumbai</div>')[0];
+                popup_7b25eaa0806d443cb35cddb27fc57360.setContent(html_472efebade9342f5aaedc025126f67e3);
+            
+
+            circle_marker_635cc33a1e234637b3d6b8a3f373c709.bindPopup(popup_7b25eaa0806d443cb35cddb27fc57360);
+
+            
+        
+    
+            var circle_marker_50b2a8e810a242ac9f8e17b55e30eca3 = L.circleMarker(
+                [19.195892856719176,72.82079750578906],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_95a43e5e6af641e68b62fdb387d23ba8 = L.popup({maxWidth: '300'});
+
+            
+                var html_524bee9b573341b589f4156bc66e13ff = $('<div id="html_524bee9b573341b589f4156bc66e13ff" style="width: 100.0%; height: 100.0%;">Hotel Sahara</div>')[0];
+                popup_95a43e5e6af641e68b62fdb387d23ba8.setContent(html_524bee9b573341b589f4156bc66e13ff);
+            
+
+            circle_marker_50b2a8e810a242ac9f8e17b55e30eca3.bindPopup(popup_95a43e5e6af641e68b62fdb387d23ba8);
+
+            
+        
+    
+            var circle_marker_d147fdd7294741d48510abe1eceba72c = L.circleMarker(
+                [19.070790386231607,73.00933149094085],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_b1ecf55964ae444a9a24918f2ad48ee1 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ef58a21fb684d73812018e4b127824f = $('<div id="html_0ef58a21fb684d73812018e4b127824f" style="width: 100.0%; height: 100.0%;">Yogi Executive Hotel Navi Mumbai</div>')[0];
+                popup_b1ecf55964ae444a9a24918f2ad48ee1.setContent(html_0ef58a21fb684d73812018e4b127824f);
+            
+
+            circle_marker_d147fdd7294741d48510abe1eceba72c.bindPopup(popup_b1ecf55964ae444a9a24918f2ad48ee1);
+
+            
+        
+    
+            var circle_marker_0ba10d9e088b48668fad0547d9784eee = L.circleMarker(
+                [18.953255,72.83532],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_8c6f737933484e45b71f2c9af6c5365c = L.popup({maxWidth: '300'});
+
+            
+                var html_d834b7a08ff34f76a8d48ab7e082a5fa = $('<div id="html_d834b7a08ff34f76a8d48ab7e082a5fa" style="width: 100.0%; height: 100.0%;">Hotel Residency Park</div>')[0];
+                popup_8c6f737933484e45b71f2c9af6c5365c.setContent(html_d834b7a08ff34f76a8d48ab7e082a5fa);
+            
+
+            circle_marker_0ba10d9e088b48668fad0547d9784eee.bindPopup(popup_8c6f737933484e45b71f2c9af6c5365c);
+
+            
+        
+    
+            var circle_marker_930364f8f5124079a18e639a46c6ebb6 = L.circleMarker(
+                [19.189548604679224,72.96260325805062],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_4d9a4af96ae74497949839c5a49bed48 = L.popup({maxWidth: '300'});
+
+            
+                var html_5a39c896262744ba9a3fadca6cb556da = $('<div id="html_5a39c896262744ba9a3fadca6cb556da" style="width: 100.0%; height: 100.0%;">Saimaa Hotel</div>')[0];
+                popup_4d9a4af96ae74497949839c5a49bed48.setContent(html_5a39c896262744ba9a3fadca6cb556da);
+            
+
+            circle_marker_930364f8f5124079a18e639a46c6ebb6.bindPopup(popup_4d9a4af96ae74497949839c5a49bed48);
+
+            
+        
+    
+            var circle_marker_2902f92c0fef4d259e485e05a6c07634 = L.circleMarker(
+                [19.263131,72.968687],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_ee61077203e34555be4b9af7967e61d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_fbfa4e530c994aa49373fcf344c429ba = $('<div id="html_fbfa4e530c994aa49373fcf344c429ba" style="width: 100.0%; height: 100.0%;">The Byke</div>')[0];
+                popup_ee61077203e34555be4b9af7967e61d4.setContent(html_fbfa4e530c994aa49373fcf344c429ba);
+            
+
+            circle_marker_2902f92c0fef4d259e485e05a6c07634.bindPopup(popup_ee61077203e34555be4b9af7967e61d4);
+
+            
+        
+    
+            var circle_marker_3630f7e70f404e1196c0d6dcd9f94ee3 = L.circleMarker(
+                [18.9758121092119,72.83410288482655],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_474caa0c6b514779907b322478452d8f = L.popup({maxWidth: '300'});
+
+            
+                var html_7c94a5c934b842b090a52af29ce957a6 = $('<div id="html_7c94a5c934b842b090a52af29ce957a6" style="width: 100.0%; height: 100.0%;">Comfort Inn Heritage Hotel Mumbai</div>')[0];
+                popup_474caa0c6b514779907b322478452d8f.setContent(html_7c94a5c934b842b090a52af29ce957a6);
+            
+
+            circle_marker_3630f7e70f404e1196c0d6dcd9f94ee3.bindPopup(popup_474caa0c6b514779907b322478452d8f);
+
+            
+        
+    
+            var circle_marker_82b6a74fd9424bf2925da2ed186f37d9 = L.circleMarker(
+                [19.101247639596156,72.82733861974947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_e1963b56320a47fa9b50872e2f62cbe9 = L.popup({maxWidth: '300'});
+
+            
+                var html_d3ff55abf5bb4fca8605d5aa5a573386 = $('<div id="html_d3ff55abf5bb4fca8605d5aa5a573386" style="width: 100.0%; height: 100.0%;">Juhu Residency Boutique Hotel</div>')[0];
+                popup_e1963b56320a47fa9b50872e2f62cbe9.setContent(html_d3ff55abf5bb4fca8605d5aa5a573386);
+            
+
+            circle_marker_82b6a74fd9424bf2925da2ed186f37d9.bindPopup(popup_e1963b56320a47fa9b50872e2f62cbe9);
+
+            
+        
+    
+            var circle_marker_3fd6f18380db4e62a0ce0fa191497423 = L.circleMarker(
+                [18.92563222066865,72.83074330299586],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_ef5c2c1ff01242eba71d4e78ba8aa55b = L.popup({maxWidth: '300'});
+
+            
+                var html_768fd947a9a34fa195d59b47db481ef8 = $('<div id="html_768fd947a9a34fa195d59b47db481ef8" style="width: 100.0%; height: 100.0%;">YWCA -  International Guest House</div>')[0];
+                popup_ef5c2c1ff01242eba71d4e78ba8aa55b.setContent(html_768fd947a9a34fa195d59b47db481ef8);
+            
+
+            circle_marker_3fd6f18380db4e62a0ce0fa191497423.bindPopup(popup_ef5c2c1ff01242eba71d4e78ba8aa55b);
+
+            
+        
+    
+            var circle_marker_775b667c79c14e5aa4c6d19708ee5a58 = L.circleMarker(
+                [19.070340931213053,72.83920955928849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_14e1aa3f288d4d8497ecfc683d2c4fc9 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd51ca42edb54bee826ce736cca6f8c6 = $('<div id="html_cd51ca42edb54bee826ce736cca6f8c6" style="width: 100.0%; height: 100.0%;">The UniContinental</div>')[0];
+                popup_14e1aa3f288d4d8497ecfc683d2c4fc9.setContent(html_cd51ca42edb54bee826ce736cca6f8c6);
+            
+
+            circle_marker_775b667c79c14e5aa4c6d19708ee5a58.bindPopup(popup_14e1aa3f288d4d8497ecfc683d2c4fc9);
+
+            
+        
+    
+            var circle_marker_a3d9735b47f843a2b325acfe5d27c667 = L.circleMarker(
+                [19.061669790956667,72.89957121902685],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_45868f3b524e47f6a8a361e7043963c7);
+            
+    
+            var popup_3f43b58f23af4527a384d16e71f4d748 = L.popup({maxWidth: '300'});
+
+            
+                var html_33e189b6e7174440bc4d7d559eba0d96 = $('<div id="html_33e189b6e7174440bc4d7d559eba0d96" style="width: 100.0%; height: 100.0%;">Hotel Jewel of Chembur</div>')[0];
+                popup_3f43b58f23af4527a384d16e71f4d748.setContent(html_33e189b6e7174440bc4d7d559eba0d96);
+            
+
+            circle_marker_a3d9735b47f843a2b325acfe5d27c667.bindPopup(popup_3f43b58f23af4527a384d16e71f4d748);
+
+            
+        
+</script>
